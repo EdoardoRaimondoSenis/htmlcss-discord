@@ -53,7 +53,7 @@ a {
     color: black;
     background-color: white;
     border-radius: 19px;
-    padding: 11px;
+    padding: 10px 22px;
 }
 
 header section {
@@ -91,11 +91,12 @@ p {
     flex-direction: row;
 }
 
+
 #pulsbianco {
     color: black;
     background-color: white;
     border-radius: 25px;
-    padding: 15px;
+    padding: 10px 22px;
     margin: 20px;
 }
 
@@ -103,7 +104,7 @@ p {
     color: white;
     background-color: black;
     border-radius: 25px;
-    padding: 15px;
+    padding: 10px 22px;
 }
 
 .secbianca {
@@ -111,7 +112,7 @@ p {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 
 /* Contenuto immagini */
@@ -123,18 +124,18 @@ p {
     height: 400px;
 }
 
+/* Contenuto testo */
 .controsa {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 380px;
     height: 400px;
 }
 
-
-
 body section h1 {
     font-size: 45px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .secgrigio {
@@ -143,7 +144,7 @@ body section h1 {
     align-items: center;
     background-color: gainsboro;
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
 
 #secultimagrigio {
@@ -157,10 +158,30 @@ body section h1 {
 
 #secverde {
     display: flex;
-    background-color: green;
+    flex-direction: column;
+    align-items: center;
     width: 1080px;
     height: 950px;
-    border-style: dashed;
+    padding: 70px;
+}
+
+#ultsecverde {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 19px;
+}
+
+#tastblu {
+    color: rgba(255, 255, 255, 0.756);
+    background-color: rgba(0, 162, 255, 0.607);
+    border-radius: 25px;
+    padding: 10px 22px;
+    margin: 30px;
+}
+
+#tescentro {
+    text-align: center;
 }
 
 footer section {
